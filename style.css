@@ -74,7 +74,7 @@
     .container {
         position: fixed;
         padding: 0px;
-        max-width: 880px;
+        max-width: 900px;
         margin: 0 auto;
       }
       .gallery-wrapper {
@@ -88,7 +88,7 @@
         left: 0;
         right: auto;
         bottom: 0;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 250px;
         width: 60px;
         color: #fff;
@@ -116,12 +116,12 @@
       .gallery {
         display: flex;
         flex-flow: row nowrap;
-        gap: 10px;
+        gap: 5px;
       }
       
       .item {
-        width: 220px;
-        height: 220px;
+        width: 260px;
+        height: 260px;
         flex-shrink: 0;
         transition: all 600ms ease-in-out;
         opacity: 0.5;
