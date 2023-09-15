@@ -2,7 +2,8 @@ const controls = document.querySelectorAll(".control");
 let currentItem = 0;
 const items = document.querySelectorAll(".item");
 const maxItems = items.length;
-
+x=window.screen.width;
+if(x<1025){
 controls.forEach((control) => {
   control.addEventListener("click", (e) => {
     isLeft = e.target.classList.contains("arrow-left");
@@ -31,3 +32,4 @@ controls.forEach((control) => {
     items[currentItem].classList.add("current-item");
   });
 });
+}
